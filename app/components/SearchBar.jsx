@@ -14,7 +14,7 @@ const SearchBar = () => {
 	return (
 		<>
 			<div className='flex flex-row justify-evenly items-center text-[12px] md:text-[20px] leading-[50px] md:leading-[80px] md:h-[80px] md:w-full bg-transparent border-b-[3px] border-b-[#AAAAAA4D]'>
-				<div className='flex flex-row gap-2 w-full md:w-[57%] bg-transparent searchbar'>
+				<div className='flex flex-row gap-6 md:gap-x-12 w-full md:w-[57%] bg-transparent searchbar'>
 					<li className={`list-none cursor-pointer `}>
 						<a
 							className={`text-[#333] ${

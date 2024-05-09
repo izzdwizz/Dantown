@@ -9,8 +9,8 @@ import SearchBar from './components/SearchBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-	title: 'Guzy Visual',
-	description: 'Immerse Yourself in a World of Art',
+	title: 'Dantow',
+	description: 'Everything Bitcoin',
 };
 
 export default function RootLayout({ children }) {
