@@ -6,6 +6,7 @@ const AppContext = createContext();
 
 export function AppWrapper({ children }) {
 	const [data, setData] = useState([]);
+
 	// Fetching data function
 	const getBlogs = async () => {
 		const blogs = await fetch('https://app.dantownms.com/api_v2/all-blogs')
@@ -17,9 +18,7 @@ export function AppWrapper({ children }) {
 		getBlogs();
 	}, []);
 
-	console.log(data);
 	const indexData = data?.slice(0, 3);
-	console.log(indexData);
 
 	return (
 		<AppContext.Provider
