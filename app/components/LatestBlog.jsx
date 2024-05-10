@@ -62,7 +62,7 @@ const LatestBlog = () => {
 					</div>
 				</div>
 				{/* Second latest article */}
-				<div className='flex flex-col items-start justify-start w-full pt-[3.35rem]'>
+				<div className='flex flex-col items-start justify-start w-full pt-[3.35rem] md:pt-0'>
 					<h4 className='text-black font-[700] text-[16px] md:text-[40px] leading-[35px] md:leading-[70px] tracking-[.5px] w-full'>
 						{secondBlog?.title}{' '}
 					</h4>
