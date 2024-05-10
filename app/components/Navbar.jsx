@@ -31,7 +31,7 @@ export default function Navbar() {
 					</div>
 				</div>
 				<div className='flex gap-3'>
-					<button className='border-2 border-[#000070] rounded-[12px] gap-3 md:gap-[10px] py-2 px-4 md:h-[79px] md:w-[245px] md:px-[32px] md:py-[12px] flex items-center justify-center'>
+					<button className='border-2 border-[#000070] rounded-[12px] gap-[7px] md:gap-[10px] py-[2.5px] px-2 md:h-[79px] md:w-[245px]  flex items-center justify-center'>
 						<Image src={download} className=' p-1 md:p-0' alt='company logo' />
 						<p className='font-[700] text-[8px] md:text-[22px]'>Download Now</p>
 					</button>
@@ -40,7 +40,7 @@ export default function Navbar() {
 						src={menu}
 						width={23}
 						height={23}
-						className='flex md:hidden min-w-[23px] min-h-[23px]'
+						className='flex md:hidden min-w-[23px] object-contain min-h-[23px]'
 						alt='company logo '
 					/>
 				</div>

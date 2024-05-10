@@ -36,7 +36,7 @@ export default async function BlogDetails({ params }) {
 	const prevSlug = await data[foundPrev]?.slug;
 
 	return (
-		<div className='flex flex-col w-full h-full md:px-24 px-[1.5rem] pt-16 md:pt-24'>
+		<div className='flex flex-col w-full h-full md:px-24 px-[2rem] pt-16 md:pt-24'>
 			<header className='flex flex-col w-full h-full'>
 				<h4 className='font-[700] text-[16px] md:text-[40px] leading-[35px] bg-transparent pb-12 md:pb-16'>
 					{blog?.data.title}
@@ -58,7 +58,7 @@ export default async function BlogDetails({ params }) {
 								width={61}
 								height={54}
 								sizes='(max-width:768px) h-[30px] w-[30px]'
-								className='md:p-3 p-[0.4px] object-contain md:w-[61px] md:h-[54px] cursor-pointer'
+								className=' p-[0.4px] object-contain md:w-[61px]  cursor-pointer'
 								alt='Play icon'
 							/>
 						</div>
@@ -67,7 +67,7 @@ export default async function BlogDetails({ params }) {
 								src={share_det}
 								width={61}
 								height={54}
-								className=' p-1 md:p-5 cursor-pointer'
+								className=' p-1  cursor-pointer'
 								alt='share icon'
 							/>
 						</div>
@@ -90,7 +90,7 @@ export default async function BlogDetails({ params }) {
 
 				<span className='flex flex-col justify-between w-full'>
 					<span className='w-full'>
-						<p className='text-[16px] leading-[40px] text-black/60 md:max-h-[570px] min-h-fit max-h-[600px] font-[400] pb-6 overflow-y-scroll '>
+						<p className=' text-[10px] md:text-[16px] leading-[30px] md:leading-[40px] text-black/60 md:max-h-[570px] min-h-fit max-h-[600px] font-[400] pb-6 overflow-y-scroll '>
 							{blog?.data.body}
 						</p>
 					</span>
@@ -112,7 +112,7 @@ export default async function BlogDetails({ params }) {
 									alt='prevArr icon'
 								/>
 
-								<span className='text-[#333333] text-[16px] leading-[19.6px] cursor-pointer'>
+								<span className='text-[#333333] text-[10px] md:text-[16px] leading-[19.6px] cursor-pointer'>
 									Older Post
 								</span>
 							</Link>
@@ -126,7 +126,7 @@ export default async function BlogDetails({ params }) {
 								href={`/blogs/${nextSlug}`}
 								className='w-full flex gap-4 items-center '
 							>
-								<span className='text-[#333333] text-[16px] leading-[19.6px] '>
+								<span className='text-[#333333] text-[10px] md:text-[16px] leading-[19.6px] '>
 									Next Post
 								</span>
 								<Image
