@@ -6,13 +6,13 @@ const Footer = () => {
 	return (
 		<section className=' w-full bg-[#000070] footer-list'>
 			<div className='w-full px-[2rem] md:px-24 py-12 grid grid-container gap-x-[35px] md:gap-[25px] '>
-				<div className='w-full flex flex-col pb-4 item0'>
+				<div className='w-full flex flex-col mpb-4 item0'>
 					<Image
 						src={logo_img}
 						width={287.38}
 						height={97.03}
 						loading='lazy'
-						className='md:w-[287.38px] h-[36.13px] w-[107px] object-contain md:h-[97.03px] '
+						className='md:w-[287.38px] h-[498.13px] w-[165px] object-contain md:h-[97.03px] '
 						alt='Footer logo'
 					/>
 					<p className='text-white/60 text-[20px] mt-[1.89rem] md:mt-[2.5rem] pb-24 flex h-full justify-start'>

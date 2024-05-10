@@ -151,8 +151,10 @@ body {
 
 	.grid-container {
 		display: grid;
-		grid-template-columns: 1fr 1fr; /* Three columns */
-		grid-template-rows: 0.5fr 1fr 1fr 0.5fr; /* Automatic row sizing */
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
+		grid-template-rows: 200px 1fr 1fr 200px; /* Automatic row sizing */
+
 		/* Gap between grid items */
 	}
 
@@ -188,7 +190,6 @@ body {
 	.item5 {
 		grid-column: 1/ 2; /* Span across all three columns */
 		grid-row: 3/4; /* Place in row 2 */
-		padding-top: 2rem;
 
 		display: flex;
 	}
@@ -197,6 +198,6 @@ body {
 	.item2,
 	.item3,
 	.item4 {
-		padding-top: 2rem;
+		padding-top: 0rem;
 	}
 }
